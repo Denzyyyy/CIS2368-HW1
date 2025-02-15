@@ -58,29 +58,6 @@ def retrieve_vault():
     else:
         print("Vault not found")
         return False
-    
-def main():
-    while True:
-        print("\nBank Management System:")
-        print("1. List vaults")
-        print("2. Create vault")
-        print("3. Retrieve vault")
-        print("4. Exit")
-        
-        choice = int(input("Enter your choice: "))
-        
-        if choice == 1:
-            list_values()
-        elif choice == 2:
-            create_vault()
-        elif choice == 3:
-            retrieve_vault()
-        elif choice == 4:
-            break
-        else:
-            print("Invalid choice")
             
-if __name__ == "__main__":
-    main()
 
     
